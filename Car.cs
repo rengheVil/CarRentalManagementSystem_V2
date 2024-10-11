@@ -20,5 +20,8 @@ namespace CarRentalManagementSystem_V2
             RentalPrice = rentalPrice;
   
         }
+
+        public
+
     }
 }

@@ -5,7 +5,7 @@ using Microsoft.Data.SqlClient;
 
 namespace CarRentalManagementSystem_V2{
 
-    public class carRepository{
+    public class CarRepository{
         private string connectionString = "Server=(localdb)\\MSSQLLocalDB; Database = CarRentalManagement; TrustServerCertificate=True; Integrated Security = true";
 
     private string CapitalizeBrand(string brand){
@@ -38,7 +38,7 @@ namespace CarRentalManagementSystem_V2{
                   Console.WriteLine("Car added successfully.");
                 }
                 catch (Exception ex){
-                    Console.WriteLine($"Error adding bike: {ex.Message}");
+                    Console.WriteLine($"Error adding car: {ex.Message}");
                 }
             }
         }
